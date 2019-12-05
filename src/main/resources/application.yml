@@ -9,7 +9,7 @@ spring:
       truststore-location: client.truststore.jks
       truststore-password: admin123
     consumer:
-      bootstrap-servers: my-cluster-kafka-brokers:9092
+      bootstrap-servers: 172.30.216.25:9092
       group-id: group-id
       auto-offset-reset: earliest
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
